@@ -3,7 +3,9 @@
 
 
 
-# This will be done using HashMap
+# This will be done using HashMap. At every iteration from 0 to lengtn of the array add the current sum to a hashmap as key
+# and at every iteration, check if current sum - k is present in the hashmap. If yes then we can say that adding current value
+# will give k along with some previous sum value
 
 array = [23, 24, 3, 4, 10, 15]
 
